@@ -33,3 +33,15 @@ header img {
 .nav-bar a:active {
   color: #3A999F;
 }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.logo img {
+    width: 650px;
+    height: 380px;
+    
+}
