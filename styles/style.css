@@ -33,3 +33,17 @@ header img {
 .nav-bar a:active {
   color: #3A999F;
 }
+
+.container-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.character img {
+    width: 65%;
+}
+
+.logo {
+    margin-left: -250px;
+    margin-top: 200px;
+}
