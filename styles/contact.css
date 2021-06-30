@@ -1,6 +1,6 @@
 
   body section {
-      margin: 200px auto 10px;
+      margin: 100px auto 10px;
       text-align: center;
       padding-bottom: 110px;
       width: 100%;
@@ -31,7 +31,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      background: #00b6f3;
+      background: #2D0066;
       width: 100%;
       padding: 18px 0;
       font-size: 1.45em;
@@ -67,7 +67,7 @@
       margin: 0;
       padding: 18px 0;
       padding-left: 19.5%;
-      color: #313A3D;
+      color: #2D0066;
       font-size: 1.4em;
       letter-spacing: 0.05em;
       text-transform: uppercase;
@@ -97,7 +97,7 @@
     form .field textarea.focused + label {
       width: 18%;
       background: #3A999F;
-      color: #313A3D;
+      color: #2D0066;
     }
     form .field input[type=text].focused + label,
     form .field textarea.focused + label {
@@ -105,7 +105,7 @@
     }
     form .field:hover label {
       width: 18%;
-      background: #313A3D;
+      background: #2D0066;
       color: white;
     }
     form input[type=submit] {
@@ -127,7 +127,7 @@
       transition: all 333ms ease-in-out;
     }
     form input[type=submit]:hover {
-      background: #313A3D;
+      background: #2D0066;
       color: #3A999F;
     }
     form input[type=submit]:focus {
