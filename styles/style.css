@@ -34,14 +34,16 @@ header img {
   color: #3A999F;
 }
 
-.logo {
+.container-2 {
     display: flex;
-    justify-content: center;
-    padding-top: 150px;
+    justify-content: flex-start;
 }
 
-.logo img {
-    width: 650px;
-    height: 380px;
-    
+.character img {
+    width: 65%;
+}
+
+.logo {
+    margin-left: -250px;
+    margin-top: 200px;
 }
