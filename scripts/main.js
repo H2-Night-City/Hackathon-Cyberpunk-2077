@@ -3,18 +3,20 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
             <header>
                 <a href="index.html">
-                    <img src="#" alt="">
+                    <img src="../images/pagehaut.png" alt="">
                 </a>
-        
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Legal Notice</a></li>
-                        <li><a href="#">E-commerce</a></li>
-                        <li><a href="#">Idea</a></li>
-                    </ul>
-                </nav>
+
+                <div class"container">
+                    <nav class="nav-bar">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="pages/about.html">About</a></li>
+                            <li><a href="pages/legale-notice.html">Legal Notice</a></li>
+                            <li><a href="#">E-commerce</a></li>
+                            <li><a href="#">Idea</a></li>
+                        </ul>
+                    </nav>
+                <div>
             </header>
         `
     }
